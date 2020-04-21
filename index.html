@@ -5,10 +5,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Task 5 | AJAX</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
+  <div class="wrapper">
+    <h1>AJAX Task</h1>
+    <div>
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+          </tr>
+        </thead>
+        <tbody id="data"></tbody>
+      </table>
+      <div>
+        <button onclick="getData()" title="Click to Load More!">Load More</button>
+      </div>
+    </div>
+  </div>
 
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
