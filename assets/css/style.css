@@ -64,3 +64,9 @@ button:hover {
   color: rgba(0, 0, 0, .9);
   transition: .1s;
 }
+
+p {
+  display: none;
+  margin-bottom: 0;
+  color: #454545;
+}
