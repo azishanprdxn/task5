@@ -1,6 +1,4 @@
-* {
-  box-sizing: border-box;
-}
+* { box-sizing: border-box; }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -15,34 +13,18 @@ body {
   margin: 0 auto;
 }
 
-div {
-  padding: 12px;
-}
+div { padding: 12px; }
+h1 { font-size: 32px; }
+table { width: 100%; }
+thead { background-color: rgba(0, 0, 0, .1); }
+tbody { background-color: #fff }
+th:first-of-type, td:first-of-type { width: 25%; }
 
-h1 {
-  font-size: 32px;
-}
-
-table,
-tr,
-th,
-td {
+table, tr, th, td {
   padding: 8px 24px;
   border: 1px solid #000;
   border-collapse: collapse;
   text-align: left;
-}
-
-table {
-  width: 100%;
-}
-
-thead {
-  background-color: rgba(0, 0, 0, .1);
-}
-
-th:first-of-type, td:first-of-type {
-  width: 25%;
 }
 
 button {
@@ -59,7 +41,7 @@ button {
 
 button:hover {
   margin: -2px;
-  background-color: rgba(0, 0, 0, .1);
+  background-color: #fff;
   border: 2px solid rgba(0, 0, 0, .9);
   color: rgba(0, 0, 0, .9);
   transition: .1s;
